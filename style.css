@@ -1,0 +1,56 @@
+form{
+    padding:5px 0;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+#search {
+    text-align: center;
+    height: 50px;
+    width: 500px;
+    border-color: black;
+    border-radius: 50px;
+    font-size: 20px;
+}
+#advanced{
+    text-align: center;
+    width: 200px;
+    height: 25px;
+    font-size:15px; 
+    color: white;
+    background-color: rgb(76, 76, 216);
+}
+#button{
+    text-align: center;
+    width: 200px;
+    height: 25px;
+    border-radius: 50px;
+    font-size:15px;
+}
+#button2{
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    font-size:12px;
+    border-color: white;
+    background-color: white;
+}
+body{
+    padding:20px 0;
+    text-align: center;
+}
+tr{
+    padding:10px 0;
+    width: 200px;
+    height: 25px;
+    border-radius: 50px;
+    font-size:15px;
+}
+#links{
+    text-align: right;
+}
+#qr{
+padding: 10px 0;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <form id="links" action ="imagesearch.html"> 
+            <input id="button2" type="submit" value="Image Search">
+        </form>
+        <form id="links" action ="index.html"> 
+            <input id="button2" type="submit" value="Google Search">
+        </form>
+        <h1>Advanced Search</h1>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <table>
+        <th>Find pages with...</th>
+        <tbody>
+        <form action="https://www.google.com/search">
+            <tr>
+            <td>
+            <label for="all">All these words:</label>
+            <input id="all"  type="text" name="q">
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <label for="exact">This exact word or phrase</label>
+            <input id="exact"  type="text" name="as_epq">
+            </td>
+            </tr>
+            <tr>
+                <td>
+            <label for="any">Any of these words:</label>
+            <input id="any"  type="text" name="as_oq">
+        </td>
+            </tr>
+            <tr>
+                <td>
+            <label for="none">None of these words:</label>
+            <input id="none"  type="text" name="as_eq">
+        </td>
+            </tr>
+        </tbody>
+        </table>
+        <div id="rq">
+            <input id="advanced" type="submit" value="Advanced Search">
+        </div>
+        </form>
+    </body>
+</html>
